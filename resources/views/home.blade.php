@@ -17,7 +17,7 @@
 
         <div id="controls-carousel" class="relative centrar" data-carousel="slide">
             <!-- Carousel wrapper -->
-            <div class="relative h-56 overflow-hidden rounded-lg md:h-96 slide-tam">
+            <div class="relative h-64 overflow-hidden rounded-lg md:h-96 slide-tam">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <img src="images/foto1-slide.jpg"
@@ -68,7 +68,104 @@
 
     </section>
     <section class="m-14 pb-24 md:pb-12">
-        <h1 class="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">Recurso del día</h1>
+        <h1 class="mb-10 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white text-center">Recursos del día</h1>
+            <div class="grid grid-cols-3 justify-items-center gap-4">
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="images/cielo.jpg" alt="" />
+                    </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Sendas estelares. Tenerife 2023</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Compilacion de cientos de fotos tomadas en el observatorio de Tenerife, se puede ver la rotacion de las estrellas.</p>
+                    <a href="https://es.wikipedia.org/wiki/Senda_estelar" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Leer mas
+                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                </div>
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg h-64" src="images/asteroide.jpg" alt="" />
+                    </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nuevo asteroide con riesgo de impacto contra la Tierra, en 2046</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Un asteroide de unos 50 metros de diámetro, descubierto el 26 de febrero, sigue una trayectoria que entraña un pequeño riesgo de impacto contra la Tierra el 14 de febrero de 2046.</p>
+                    <a href="https://www.europapress.es/ciencia/astronomia/noticia-nuevo-asteroide-riesgo-impacto-contra-tierra-2046-20230309125647.html" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Leer mas
+                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                </div>
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg h-50" src="images/cumulo.jpeg" alt="" />
+                    </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nuevo cumulu descubierto</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Gracias al reputado astronomo Javier Velez, se han descubierto un nuevo cumulo de galaxias a 400millones de años luz de la Tierra.</p>
+                    <a href="https://www.youtube.com/watch?v=U-n4hWNewiE&ab_channel=MusicFull5" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Leer mas
+                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                </div>
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="images/quedada.jpg" alt="" />
+                    </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Nueva quedada de amigos de la astronomia en Sevilla</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">A todas las personas se le invita a una nueva quedada donde debatiremos si Pluton es un planeta y mucho más!</p>
+                    <a href="https://www.youtube.com/watch?v=YdqgUiFYVYo&ab_channel=roubeenTV" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Leer mas
+                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                </div>
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="images/auroras.webp" alt="" />
+                    </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Auroras boreales captadas en Los Palacios</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Dado al cambio climático que esta sufriendo el plantea Tierra el invierno es cada vez más frio en nuestro país, como podemos ver al hallarse este magnifico evento natural en un pueblo sevillano</p>
+                    <a href="https://www.youtube.com/watch?v=p8Z4ktIIY6g&ab_channel=squewe" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Leer mas
+                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                </div>
+                <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+                    <a href="#">
+                        <img class="rounded-t-lg" src="images/matrimonio.webp" alt="" />
+                    </a>
+                <div class="p-5">
+                    <a href="#">
+                        <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Primeras personas en casarse en Marte</h5>
+                    </a>
+                    <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Jhon McKennedy(Mashashushets) y Erika Goblenawer(Ohio) son la primera pareja de la historia en casarse fuera de nuestro planeta, !enhorabuena¡</p>
+                    <a href="https://www.youtube.com/watch?v=iV92Z6vcDwE&ab_channel=Blijf" class="inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        Leer mas
+                        <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                    </a>
+                </div>
+                </div>
+            </div>
+            
+
+    </section>
+    {{-- <section class="m-14 pb-24 md:pb-12">
+       
         <div class="flex justify-center">
             <figure class="max-w-lg">
                 <img class="h-auto max-w-full rounded-lg" src="images/cielo.jpg" alt="image description">
@@ -82,7 +179,7 @@
             Leer más
             <svg class="w-6 h-6 ml-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z" clip-rule="evenodd"></path></svg>
             </a>
-    </section>
+    </section> --}}
     <section>
         <div id="informational-banner" tabindex="-1" class="fixed bottom-0 left-0 z-50 flex flex-col justify-around w-full p-4 border-b border-gray-200 md:flex-row bg-gray-50 dark:bg-gray-700 dark:border-gray-600 opacity-90">
             <div class="mb-4 md:mb-0 md:mr-4">
