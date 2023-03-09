@@ -56,6 +56,11 @@ module.exports = {
       //   terc : ["Castoro", "sans"]
       // }
     },
+    clipPath:{
+      mypolygon: "circle(40% at 50% 50%)",
+    }
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-clip-path'),
+  ],
 }

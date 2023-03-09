@@ -33,7 +33,7 @@
                         </th>
                         <td class="imagen px-6 py-4">
                             @if (auth()->user()->is_admin == 1)
-                                <a href="{{ route('sesionadmin', $universo->id) }}"><img
+                                <a href="{{ route('sesionadmin', $universo->id) }}"><img class="clip-path-mypolygon w-72"
                                         src="images/featureds/{{ $universo->imagen }}"
                                         alt="{{ $universo->nombre }}"></a>
                             @else

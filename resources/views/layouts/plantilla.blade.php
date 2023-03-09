@@ -157,10 +157,11 @@
 
         </div>
         <br>
-        <div class="flex justify-center mt-3 gap-3 text-sm text-gray-500 dark:text-white-400 sm:mt-0">
+        <div class="flex justify-center mt-3 gap-3 text-sm text-white dark:text-white-400 sm:mt-0">
             <a href="https://www.instagram.com/amulero23/"><img src="images/instagram.png" alt="instagram"></a>
             <a href="https://www.tiktok.com/@albertomulero7"><img src="images/tiktok.png" alt="tiktok"></a>
             <a href="https://twitter.com/amulero23"><img src="images/twitter.png" alt="twitter"></a>
+        </div>    
     </footer>
     @endguest
     @auth

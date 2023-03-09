@@ -43,7 +43,9 @@ themeToggleBtn.addEventListener('click', function() {
     }
     
 });
-//funcion de carrousel//
-//////////////////////////
+
+
+
+
 
 
